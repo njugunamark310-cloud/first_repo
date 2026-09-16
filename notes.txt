@@ -4,4 +4,12 @@ git innit
 open VScode with code .
 create notes.txt file and take note of the lettrt "U" -represents untracked files
 git status checks the state of our local repo
- 
+add the file to the Github repository using Git add
+Add a commit message git commit -m "Add repo notes"
+check for changes on your github user Git log
+Then copy the ssh of you repository git remote add origin git@github.com:njugunamark310-cloud/first_repo.git and paste on the terminal where you will see fetch and push
+then do git remote -v to see the repo
+Then make sure you are in the main branch git branch -M main
+Then push to the main branch of github git push -u origin main
+Then on Github the notes.txt file shall be seen
+
